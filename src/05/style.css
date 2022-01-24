@@ -1,0 +1,134 @@
+/* RC TABS START */
+
+.rc-tabs {
+  border: none !important;
+}
+.rc-tabs-tab {
+  padding: 5px;
+  text-transform: capitalize;
+}
+.rc-tabs-tab .rc-tabs-tab-btn {
+  font-weight: normal;
+}
+.rc-tabs-tab.rc-tabs-tab-active {
+  background: ececec;
+  color: #fff;
+  /* background-color: #00a6f8; */
+  width: 500px;
+  height: 500px;
+}
+.rc-tabs-ink-bar {
+  background: #59c7fd !important;
+}
+.rc-tabs-content-holder {
+  padding: 10px;
+  background: #ececec;
+}
+/* .rc-tabs-content {
+} */
+
+/* RC TABS STOP */
+
+/* cards */
+.card-left {
+  width: 877px;
+  height: 100%;
+  background-image: url("./assets/images/card-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 55px 55px 100px 55px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.card-left-top {
+  display: flex;
+  align-items: center;
+}
+.usrInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.user-name {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+.user-work {
+  font-size: 12px;
+  line-height: 15px;
+  color: #a1a0a5;
+}
+
+.card-left-bottom-title {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #4592ff;
+  margin-bottom: 25px;
+}
+.card-left-bottom-desc {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+
+.card-left-bottom-play {
+  display: flex;
+  align-items: center;
+}
+.play-sec {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #a1a0a5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.track-name {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.85;
+}
+.track-clock {
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.btn {
+  color: white;
+  padding: 17px 22px;
+  background: #4592ff;
+  border-radius: 20px;
+  width: 138px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.btn::after {
+  content: "\2192";
+  color: #fff;
+}
